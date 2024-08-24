@@ -103,9 +103,9 @@ nav button {
 .btn-red {
     background-color: green;
     color: white;
-    padding: 3px 24px;
+    padding: 7px 78px;
     font-size: 20px;
-    border-radius: 4px;
+    border-radius: 10px;
     font-weight: 400;
 }
 
