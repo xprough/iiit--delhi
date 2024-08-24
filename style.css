@@ -320,25 +320,23 @@ footer .questions {
     overflow: hidden;
   }
 
-  /* FAQ Section Styles */
 .faq {
     background: black !important;
     color: white !important;
     padding: 34px !important;
 }
 
-/* FAQ Questions */
 .faqbox {
-    transition: all 0.3s ease !important; /* Faster transition */
+    transition: all 0.3s ease !important; 
     font-size: 24px !important;
     display: flex !important;
     justify-content: space-between !important;
     background-color: #2d2d2d !important;
     padding: 24px !important;
     max-width: 60vw !important;
-    margin: 20px auto !important; /* Reduced margin */
+    margin: 20px auto !important; 
     cursor: pointer !important;
-    border-radius: 8px !important; /* Added border radius for rounded corners */
+    border-radius: 8px !important; 
 }
 
 .faqbox:hover {
@@ -348,40 +346,37 @@ footer .questions {
 
 .faqbox span {
     font-size: 24px !important;
-    font-weight: 600 !important; /* Bold weight for questions */
+    font-weight: 600 !important; 
 }
 
 .faqbox svg {
     filter: invert(1) !important;
 }
 
-/* FAQ Answers */
 .faq-answer {
     font-size: 18px !important;
-    font-weight: 400 !important; /* Regular weight for answers */
-    line-height: 1.5 !important; /* Increased line height for better readability */
-    margin-top: 10px !important; /* Space between question and answer */
-    padding: 10px !important; /* Padding around answer */
-    background-color: #1c1c1c !important; /* Slightly darker background for answers */
-    border-radius: 4px !important; /* Rounded corners for answers */
-    transition: opacity 0.3s ease !important; /* Smooth transition for showing/hiding answers */
+    font-weight: 400 !important; 
+    line-height: 1.5 !important; 
+    margin-top: 10px !important; 
+    padding: 10px !important; 
+    background-color: #1c1c1c !important; 
+    border-radius: 4px !important; 
+    transition: opacity 0.3s ease !important; 
 }
 
-/* Ensure answers are hidden initially */
 .faq-answer[hidden] {
     display: none !important;
 }
 
-/* Responsive Design Adjustments for FAQ */
 @media screen and (max-width: 1300px) {
     .faqbox {
-        font-size: 20px !important; /* Slightly smaller font on smaller screens */
-        padding: 20px !important; /* Adjusted padding */
-        max-width: 90vw !important; /* Increased max width for smaller screens */
+        font-size: 20px !important; 
+        padding: 20px !important; 
+        max-width: 90vw !important; 
     }
     
     .faq-answer {
-        font-size: 16px !important; /* Adjusted font size for smaller screens */
-        padding: 8px !important; /* Adjusted padding for smaller screens */
+        font-size: 16px !important; 
+        padding: 8px !important; 
     }
 }
