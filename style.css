@@ -123,7 +123,7 @@ nav button {
 
 .main input {
     padding: 7px 101px 8px 14px;
-    color: white;
+    color: orange;
     font-size: 12px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.7);
@@ -135,7 +135,7 @@ nav button {
     justify-content: center;
     max-width: 70vw;
     margin: auto;
-    color: white;
+    color: whitesmoke;
     justify-content: center;
     align-items: center;
 }
@@ -162,6 +162,7 @@ nav button {
 section.first>div {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     padding: 34px 0;
 }
 
@@ -307,7 +308,7 @@ footer .questions {
     gap: 23px;
 }
 #myVideo {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 20;
     min-width: 100%;
